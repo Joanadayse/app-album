@@ -4,8 +4,8 @@
 
 <br>
 
-<img src="./src/assets/img/tela1.png/>
+<img src="./src/assets/img/tela1.png"/>
 
 <br>
 
-<img src="./src/assets/img/tela1.png/>
+<img src="./src/assets/img/tela1.png"/>
