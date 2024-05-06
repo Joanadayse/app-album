@@ -1,0 +1,157 @@
+<style>
+  /* estilo do card, container da imagem */
+  .card{
+    margin: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0d0d0;
+    color: #488aff;
+    margin-top: 8px;
+    background-color: #c0d7ff;
+  }
+/* cores do texto do card */
+
+.card span{
+  color: #676767;
+}
+
+/* cor do toolbar */
+
+.toolbar-background{
+  background-color: blue;
+}
+
+/* deixa as bordas da imagem arredondadas */
+
+img{
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+h4{
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+</style>
+
+
+
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      <h3 style="margin-top: 25px">Galeria de imagens</h3>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-row class="card">
+   
+     <ion-col col-6>
+      <ion-row>
+        <h4>Aventura com amigos</h4>
+      </ion-row>
+
+      <ion-row>
+       
+        
+       
+        <ion-button (click)="presentActionSheet()">
+          <ion-icon name="settings-outline"></ion-icon>
+        </ion-button>
+
+        
+       
+      </ion-row>
+    </ion-col>
+
+    <ion-col col-6>
+      <img src="../../assets/img/imagem3.jpg" />
+    </ion-col>
+  
+  </ion-row>
+
+   <ion-row class="card">
+    <ion-col col-6>
+      <ion-row>
+        <h4>Curtindo a natureza</h4>
+      </ion-row>
+
+      <ion-row>
+        <ion-button (click)="presentActionSheet()">
+          <ion-icon name="settings-outline"></ion-icon>
+        </ion-button>
+
+       
+      </ion-row>
+    </ion-col>
+
+    <ion-col col-6>
+      <img src="../../assets/img/imagem5.jpg" />
+    </ion-col>
+  </ion-row>
+
+   <ion-row class="card">
+    <ion-col col-6>
+      <ion-row>
+        <h4>Dia de caminhada</h4>
+      </ion-row>
+
+      <ion-row>
+        <ion-button (click)="presentActionSheet()">
+          <ion-icon name="settings-outline"></ion-icon>
+        </ion-button>
+
+        
+      </ion-row>
+    </ion-col>
+
+    <ion-col col-6>
+      <img src="../../assets/img/imagem1.jpg" />
+    </ion-col>
+  </ion-row>
+
+   <ion-row class="card">
+    <ion-col col-6>
+      <ion-row>
+        <h4>Olhando o horizonte</h4>
+      </ion-row>
+
+      <ion-row>
+        <ion-button (click)="presentActionSheet()">
+          <ion-icon name="settings-outline"></ion-icon>
+        </ion-button>
+
+       
+      </ion-row>
+    </ion-col>
+
+    <ion-col col-6>
+      <img src="../../assets/img/imagem2.jpg" />
+    </ion-col>
+  </ion-row>
+
+   <ion-row class="card">
+    <ion-col col-6>
+      <ion-row>
+        <h4>Com os amigos na estrada</h4>
+      </ion-row>
+
+      <ion-row>
+        <ion-button (click)="presentActionSheet()">
+          <ion-icon name="settings-outline"></ion-icon>
+        </ion-button>
+
+       
+      </ion-row>
+    </ion-col>
+
+    <ion-col col-6>
+      <img src="../../assets/img/imagem3.jpg" />
+    </ion-col>
+  </ion-row>
+</ion-content>
